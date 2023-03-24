@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button,
+img {
+    cursor: pointer;
+}
+.container-row-1 {
+    height: 70vh;
+    background: url('https://static.wixstatic.com/media/9ab0d1_81f278e15fcd4bf78bb804ecfe0ad8a4.png/v1/crop/w_1263,h_577,al_c,q_90,enc_auto/9ab0d1_81f278e15fcd4bf78bb804ecfe0ad8a4.png') center center /cover no-repeat;
+}
+.container-row-1-row-1 {
+    display: flex;
+    flex-direction: column;
+}
+.container-row-1-row-1 img {
+    width: 131px;
+    height: 38px;
+    margin-top: 32px;
+}
+.container-row-1-row-1 >p {
+    color: #ffffff;
+    font-size: 72px;
+    width: 40%;
+    line-height: 1.5;
+    margin-top: 64px;
+}
+.container-row-1-row-1-container-a {
+    width: 50%;
+    display: flex;
+    align-items: c;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+.container-row-1-row-1-container-a a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    display: flex;
+}
+.container-row-1-row-1-container-a a p {
+    margin-left: 12px;
+}
+.container-row-1-row-1 button {
+    width: 12%;
+    font-size: 20px;
+    color: #20303C;
+    padding: 12px 8px;
+    border: none;
+    border-radius: 24px;
+    background-color: whitesmoke;
+}
+.container-row-2 {
+    background-color: whitesmoke;
+    padding-bottom: 130px;
+}
+.container-row-2-row-1 {
+    padding: 90px 0; 
+}
+.container-row-2-row-1 p {
+    margin: 0 auto;
+    font-size: 48px;
+    color: #20303C;
+}
+.container-row-2-row-2 {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+.container-row-2-row-2-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-row-2-row-2-col img {
+    width: 80px;
+    height: 70px;
+}
+.container-row-2-row-2-col p {
+    line-height: 1.6;
+    margin-top: 16px;
+    width: 80%;
+    font-size: 24px;
+}
+.container-row-3 {
+    background-color: rgb(237, 241, 245);
+    padding-bottom: 16px;
+}
+.container-row-3 .grid {
+    margin-left: 0;
+}
+.container-row-3-row-1 {
+    /* margin-top:22px; */
+    display: flex;
+}
+.container-row-3-row-1-col-1 img{
+    margin-top: 36px;
+    width: 100% ;
+}
+.container-row-3-row-1-col-2 h1 {
+    font-size: 48px;
+    color: #20303C;
+    margin-top: 25%;
+}
+.container-row-3-row-1-col-2 button {
+    margin-top: 32px;
+    font-size: 20px;
+    padding: 12px 22px;
+    border: none;
+    border-radius: 24px;
+    color: #fff;
+    background-color: #33BABD;
+}
+.container-row-4 {
+    margin-top: 131px;
+}
+.container-row-4-row-1 {
+    padding-bottom: 52px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ .container-row-4-row-1 h2 {
+    font-size: 48px;
+    font-weight: lighter;
+ }
+  .container-row-4-row-1 p {
+    font-size: 20px;
+    margin: 32px 0;
+    color: #20303C;
+  }
+  .container-row-4-row-1 button {
+    color: #ffffff;
+    background-color: #33BABD;
+    font-size: 20px;
+    padding: 12px 32px;
+    border: none;
+    border-radius: 22px;
+}
+
+.container-row-4-row-2-col {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.container-row-4-row-2-col:hover >p {
+    display: block;
+}
+.container-row-4-row-2-col img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: #333;
+    transition: 0.5s;
+}
+.container-row-4-row-2-col img:hover {
+    display: block;
+    opacity: 0.6;
+    cursor: pointer;
+} 
+.container-row-4-row-2-col p {
+    position: absolute;
+    color: #333333;
+    font-size: 20px;
+    top: 50%;
+    margin-left: 28%;
+    display: none;
+}
+.container-row-5-row-1 {
+    background-color: #33BABD;
+    padding: 64px;
+}
+.container-row-5-row-1 p {
+    font-size: 48px;
+    color: #ffffff;
+    line-height: 1.6;
+    font-weight: lighter;
+}
+.container-row-5 {
+    margin-top: 64px;
+}
+.container-row-5-row-1 .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-row-5-row-2 .grid{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 0;
+}
+.container-row-5-row-2-col-1 {
+    display: flex;
+}
+.container-row-5-row-2-col-1 a {
+    color: #20302C;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 0 32px;
+}
+.container-row-5-row-2-col-2 p {
+    color: #20302C;
+}
